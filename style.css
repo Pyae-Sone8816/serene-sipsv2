@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0e2c5;
+}
+/* header section */
+header {
+  text-align: center;
+  padding: 30px 0;
+}
+header h1 {
+  font-family: "Playfair Display SC", serif;
+  color: #9f4b1a;
+  font-size: 3rem;
+}
+header p {
+  font-family: "Lato", serif;
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+.btn {
+  display: inline-block;
+  font-family: "Lato", serif;
+  background-color: #49281a;
+  padding: 10px 20px;
+  color: #f0e2c5;
+  border-radius: 8px;
+  text-decoration: none;
+}
+/* nav section */
+nav {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #49281a;
+}
+nav a {
+  text-decoration: none;
+  color: #f0e2c5;
+  padding: 0 2px;
+  margin-right: 70px;
+  font-family: "Lato", serif;
+}
+nav a:hover {
+  border-bottom: 2px solid #f0e2c5;
+}
+
+/* about-us section */
+#about_us {
+  border: 2px solid black;
+  padding: 20px;
+}
+#about_us h1 {
+  font-family: "Playfair Display SC", serif;
+  color: #9f4b1a;
+  font-size: 2rem;
+}
+#about_us p {
+  font-family: "Lato", serif;
+  text-align: justify;
+  padding: 10px 0;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
