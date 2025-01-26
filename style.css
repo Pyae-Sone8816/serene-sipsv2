@@ -150,6 +150,11 @@ footer p {
 }
 .arrow {
   text-decoration: none;
-  color: #49281a;
-  padding: 30px 0;
+  background-color: #49281a;
+  color: #f0e2c5;
+  padding: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 8px;
 }
