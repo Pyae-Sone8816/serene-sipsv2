@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #f0e2c5;
 }
@@ -10,23 +13,25 @@ body {
 header {
   text-align: center;
   padding: 30px 0;
+  background-image: url(images/c1.webp);
 }
 header h1 {
   font-family: "Playfair Display SC", serif;
-  color: #9f4b1a;
+  color: aliceblue;
   font-size: 3rem;
 }
 header p {
   font-family: "Lato", serif;
   font-size: 1.2rem;
   margin: 20px 0;
+  color: aliceblue;
 }
 .btn {
   display: inline-block;
   font-family: "Lato", serif;
   background-color: #49281a;
   padding: 10px 20px;
-  color: #f0e2c5;
+  color: aliceblue;
   border-radius: 8px;
   text-decoration: none;
 }
@@ -48,6 +53,7 @@ header p {
   text-align: center;
   /* margin: 50px auto; */
   border-radius: 10px;
+  display: inline-block;
 }
 .card-img-top {
   max-width: 100%;
@@ -76,6 +82,8 @@ nav {
   text-align: center;
   padding: 20px 0;
   background-color: #49281a;
+  position: sticky;
+  top: 0px;
 }
 nav a {
   text-decoration: none;
@@ -111,7 +119,7 @@ footer {
   font-size: 1.1rem;
 }
 #contact form {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 20px;
   text-align: center;
   font-family: "Lato", serif;
@@ -139,4 +147,9 @@ footer p {
   font-family: lato, serif;
   text-align: center;
   font-size: 1rem;
+}
+.arrow {
+  text-decoration: none;
+  color: #49281a;
+  padding: 30px 0;
 }
