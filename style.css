@@ -44,6 +44,11 @@ header p {
   color: #9f4b1a;
   padding: 10px 0;
 }
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .menu .card {
   font-family: "Lato", serif;
   border: 2px solid black;
