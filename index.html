@@ -11,12 +11,39 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style>
+      @media screen and (max-width: 425px) {
+        nav a {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        #our_menu,
+        #about_us,
+        #contact {
+          text-align: center;
+        }
+        .card-container {
+          display: flex;
+          flex-direction: column;
+        }
+        .form-label {
+          text-align: center;
+        }
+      }
+    </style>
     <title>Serene Sips</title>
   </head>
   <body>
     <!-- header section  -->
     <header id="home">
-      <h1>Welcome to Serene Sips</h1>
+      <h1 class="animate__animated animate__bounce animate__repeat-3">
+        Welcome to our screne sips
+      </h1>
       <p>Indulge in the finest coffee experience crafted just for you.</p>
       <a href="#our_menu" class="btn"> Explore Our Menu</a>
     </header>
