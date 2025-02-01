@@ -29,9 +29,9 @@ header p {
 .btn {
   display: inline-block;
   font-family: "Lato", serif;
-  background-color: #49281a;
+  background-color: #f0e2c5;
   padding: 10px 20px;
-  color: #f0e2c5;
+  color: #49281a;
   border-radius: 8px;
   text-decoration: none;
 }
